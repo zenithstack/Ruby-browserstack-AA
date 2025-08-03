@@ -1,7 +1,7 @@
 require 'dotenv/load'
 
-USERNAME = ENV['BROWSERSTACK_USER'] || 'zenithmehta_PD0ML9'
-ACCESS_KEY = ENV['BROWSERSTACK_ACCESSKEY'] || 'PsVY25rqD5zTZtQqexxQ'
+USERNAME = ENV['BROWSERSTACK_USER'] || ''
+ACCESS_KEY = ENV['BROWSERSTACK_ACCESSKEY'] || ''
 APP_ID = 'bs://sample.app'  # Replace with real ID
 
 DEVICES = [
