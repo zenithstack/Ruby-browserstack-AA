@@ -1,6 +1,3 @@
-Here’s your updated, **copyable `README.md`** with the **multi-threaded parallel test execution logic** clearly documented in the ✅ Running Tests section.
-
----
 
 ```markdown
 # 📱 Ruby Appium Automation with BrowserStack
@@ -12,21 +9,22 @@ This project demonstrates running Appium tests written in Ruby on real devices u
 ## 📁 Project Structure
 
 ```
-
-ruby\_appium/
+```text
+ruby_appium/
 │
 ├── config/
-│   └── browserstack\_config.rb     # Holds credentials, device config, and capabilities
+│   └── browserstack_config.rb     # Holds credentials, device config, and capabilities
 │
 ├── lib/
-│   ├── driver\_manager.rb          # Handles Appium driver lifecycle
-│   └── test\_runner.rb             # Manages parallel test execution
+│   ├── driver_manager.rb          # Handles Appium driver lifecycle
+│   └── test_runner.rb             # Manages parallel test execution
 │
 ├── tests/
-│   ├── search\_wikipedia\_test.rb   # Sample test: search on Wikipedia app
-│   └── another\_test.rb            # Placeholder for additional test case
+│   ├── search_wikipedia_test.rb   # Sample test: search on Wikipedia app
+│   └── another_test.rb            # Placeholder for additional test case
 │
 └── main.rb                        # Entry point to run all tests
+
 
 ````
 
@@ -58,25 +56,6 @@ gem install parallel
 gem install dotenv
 ```
 
-Or use Bundler (recommended):
-
-**Gemfile**
-
-```ruby
-source 'https://rubygems.org'
-
-gem 'appium_lib'
-gem 'parallel'
-gem 'dotenv'
-```
-
-Then run:
-
-```bash
-bundle install
-```
-
----
 
 ## 🔐 Set Up Your Credentials
 
