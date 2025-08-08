@@ -4,6 +4,11 @@ USERNAME = ENV['BROWSERSTACK_USER'] || ''
 ACCESS_KEY = ENV['BROWSERSTACK_ACCESSKEY'] || ''
 APP_ID = 'bs://sample.app'  # Replace with real ID
 
+#fs
+# APP_ID = "bs://adc0d104ff5087e589cf6e674b540eaf50ca3968" 
+
+
+
 DEVICES = [
   {
     name: 'Samsung Galaxy S21 Ultra',
@@ -12,21 +17,21 @@ DEVICES = [
       "appium:platformVersion": "11.0",
       "appium:deviceName": "Samsung Galaxy S21 Ultra"
     }
-  },
-  {
-    name: 'Google Pixel 8 Pro',
-    caps: {
-      "platformName": "android",
-      "appium:platformVersion": "14.0",
-      "appium:deviceName": "Google Pixel 8 Pro"
-    }
-  },
-  {
-    name: 'Xiaomi Redmi Note 13 Pro 5G',
-    caps: {
-      "platformName": "android",
-      "appium:platformVersion": "14.0",
-      "appium:deviceName": "Xiaomi Redmi Note 13 Pro 5G"
-    }
   }
+  # {
+  #   name: 'Google Pixel 8 Pro',
+  #   caps: {
+  #     "platformName": "android",
+  #     "appium:platformVersion": "14.0",
+  #     "appium:deviceName": "Google Pixel 8 Pro"
+  #   }
+  # },
+  # {
+  #   name: 'Xiaomi Redmi Note 13 Pro 5G',
+  #   caps: {
+  #     "platformName": "android",
+  #     "appium:platformVersion": "14.0",
+  #     "appium:deviceName": "Xiaomi Redmi Note 13 Pro 5G"
+  #   }
+  # }
 ]

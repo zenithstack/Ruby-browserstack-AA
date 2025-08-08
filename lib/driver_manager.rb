@@ -10,7 +10,7 @@ def create_driver(device_name, caps)
     "appium:app" => APP_ID,
     "bstack:options" => {
       "projectName" => "Ruby Appium",
-      "buildName" => "Parallel Test Build 2",
+      "buildName" => "describe test 7",
       "sessionName" => session_name,
       "userName" => USERNAME,
       "accessKey" => ACCESS_KEY,
