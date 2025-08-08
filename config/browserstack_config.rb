@@ -4,8 +4,6 @@ USERNAME = ENV['BROWSERSTACK_USER'] || ''
 ACCESS_KEY = ENV['BROWSERSTACK_ACCESSKEY'] || ''
 APP_ID = 'bs://sample.app'  # Replace with real ID
 
-#fs
-# APP_ID = "bs://adc0d104ff5087e589cf6e674b540eaf50ca3968" 
 
 
 
